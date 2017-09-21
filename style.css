@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+
+}
+.header {
+  
+  height: 100px;
+  background-color: teal;
+
+
+}
+
+.contentbox {
+
+}
+
+.contentbox .content {
+  height: 300px;
+  width: 70%;
+  float: left;
+  background: salmon;
+}
+
+.contentbox .sidebar {
+ height: 300px;
+ width: 30%;
+ float: right;
+ background: skyblue;
+}
+
+.footer {
+  height: 100px;
+  background: #777;
+  clear: both;
+}
+
