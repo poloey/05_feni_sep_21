@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+header {}
+nav {
+  text-align: center;
+  padding: 10px;
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 10px;
+  background: salmon;
+  color: white;
+  text-decoration: none;
+  border: 1px solid tomato ;
+}
+nav ul li a:hover,  nav ul li a.active {
+  background: skyblue;
+
+}
+.contentbox {}
+.contentbox .content {
+  height: 300px;
+  float: left;
+  width: 70%;
+  background: teal;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.contentbox aside {
+  float: right;
+  padding: 10px;
+  height: 300px;
+  width: 30%;
+  background: peru;
+  box-sizing: border-box;
+}
+footer {
+  clear: both;
+  height: 100px;
+  color: white;
+  background: purple;
+  padding: 10px;
+}
