@@ -6,12 +6,42 @@ body {
   color: white;
 
 }
-.header {
-  
-  height: 100px;
-  background-color: teal;
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+header {
 
+}
 
+nav {
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: tomato;
+  border: 1px solid skyblue;
+  transition: 300ms all;
+}
+
+nav ul li a:hover {
+  background: skyblue;
+  border: 1px solid tomato;
 }
 
 .contentbox {
@@ -22,19 +52,28 @@ body {
   height: 300px;
   width: 70%;
   float: left;
+  padding: 10px;
   background: salmon;
+  box-sizing: border-box;
+}
+.contentbox .content h1 {
+  text-align: center;
 }
 
-.contentbox .sidebar {
+.contentbox aside {
  height: 300px;
  width: 30%;
  float: right;
  background: skyblue;
+ padding: 10px;
+ box-sizing: border-box;
 }
 
-.footer {
-  height: 100px;
+footer {
+  height: 50px;
   background: #777;
   clear: both;
+  text-align: center;
+  padding: 10px;
 }
 
