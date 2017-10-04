@@ -1,4 +1,5 @@
+# Class 05
+### View [all class list](https://github.com/poloey/feni)
+
 # css box model
-### View [all class list](https://github.com/poloey/feni)  
-# class video gist (ignore sound, I don't have good mic)
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6ymudDvrCiw/0.jpg)](https://www.youtube.com/watch?v=6ymudDvrCiw)
+Go to video Tuts
